@@ -52,4 +52,9 @@
     font-size: xx-small;
 }
 
-
+.chat_peopleNames {
+    position: absolute;
+    top: -15px;
+    font-weight: 900;
+    font-size: xx-small;
+}
