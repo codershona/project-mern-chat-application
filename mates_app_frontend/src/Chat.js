@@ -29,7 +29,7 @@ function Chat() {
             </div>
 
             <div className="chat_Body">
-              <p>
+              <p className="chat_PeopleMessages">
                  <span className="chat_peopleNames">
                      James BOND
                      </span>

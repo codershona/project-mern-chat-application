@@ -36,3 +36,20 @@
     padding: 30px;
     overflow: scroll;
 }
+
+.chat_PeopleMessages {
+    position: relative;
+    font-size: 17px;
+    padding: 11px;
+    width: fit-content;
+    border-radius: 11px;
+    background_color: #ffeeee;
+    margin-bottom: 31px;
+}
+
+.chat_Timestamps {
+    margin-left: 11px;
+    font-size: xx-small;
+}
+
+
