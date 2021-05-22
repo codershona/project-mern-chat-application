@@ -32,6 +32,9 @@ function Sidebar() {
                </div>
             </div>
 
+            <div className="sidebarChatLists_broadcasts">
+              <h5>BroadCasts Lists</h5>
+              </div>
            <div className="sidebar_ChatLists">
                <SidebarChats />
                <SidebarChats />

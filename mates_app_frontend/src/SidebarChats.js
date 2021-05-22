@@ -7,9 +7,9 @@ function SidebarChats() {
         <div className="sidebarChatLists">
           <Avatar />
           <div className="sidebarChatLists_info">
-              <h2>ChatRoom Name</h2>
+              <h2>BroadCasts Chat Room</h2>
               <p>Last Chats</p>
-          </div>
+              </div>
         </div>
     );
 }
