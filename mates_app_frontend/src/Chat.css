@@ -58,3 +58,8 @@
     font-weight: 900;
     font-size: xx-small;
 }
+
+.chat_PeopleChatReceiver {
+    margin-left: auto;
+    background-color: #8ffaec;
+}
