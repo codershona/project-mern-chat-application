@@ -9,4 +9,15 @@
     background-color: #d5f3f6;
 }
 
+.sidebarChatLists_info > h2 {
+    font-size: 17px;
+    margin-bottom: 8.5px;
+}
+
+.sidebarChatLists_info {
+    margin-left: 16px;
+}
+
+
+
 
