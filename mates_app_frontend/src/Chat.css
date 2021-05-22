@@ -43,7 +43,7 @@
     padding: 11px;
     width: fit-content;
     border-radius: 11px;
-    background_color: #ffeeee;
+    background-color: #f0dada;
     margin-bottom: 31px;
 }
 
@@ -70,6 +70,7 @@
     align-items: center;
     height: 62px;
     border-top: 1px solid rgb(230, 204, 204);
+    background-color: rgb(231, 210, 184);
 }
 
 .chat_Footer > form {
@@ -100,5 +101,10 @@
     margin-left: 5px;
     margin-right: 5px;
 } */
+
+.chat_Footer > .MuiSvgIcon-root {
+    padding: 11px;
+    color: rgb(82, 62, 62);
+}
 
 
