@@ -4,7 +4,8 @@ import { Avatar, IconButton } from '@material-ui/core';
 import YoutubeSearchedForIcon from '@material-ui/icons/YoutubeSearchedFor';
 import AttachmentIcon from '@material-ui/icons/Attachment';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
+import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
+import SettingsVoiceIcon from '@material-ui/icons/SettingsVoice';
 
 function Chat() {
     return (
@@ -176,6 +177,23 @@ function Chat() {
                      </span>
                   </p>
 
+            </div>
+
+            <div className="chat_Footer">
+             <EmojiEmotionsIcon />
+             <form>
+                 <input
+                    // value={input}
+                    // onChange={(e) => setInput(e.target.value)}
+                    placeholder="Type your message"
+                    type="text"
+                />
+                <button
+                type="submit">
+                    Send your messages
+                </button>
+             </form>
+             <SettingsVoiceIcon />
             </div>
         </div>
     );

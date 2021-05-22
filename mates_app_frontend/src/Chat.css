@@ -63,3 +63,42 @@
     margin-left: auto;
     background-color: #8ffaec;
 }
+
+.chat_Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid rgb(230, 204, 204);
+}
+
+.chat_Footer > form {
+    flex: 1;
+    display: flex;
+}
+
+.chat_Footer > form > input {
+    flex: 1;
+    border-radius: 35px;
+    padding: 11px;
+    border: none;
+}
+
+.chat_Footer > form > button {
+    display: none;
+}
+
+/* .chat_Footer > form > button {
+    /* flex: 1; */
+    /* border-radius: 10px;
+    padding: 6px;
+    border: none;
+    background-color: rgb(223, 19, 19);
+    color: white;
+    font-weight: 700 !important;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+
