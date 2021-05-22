@@ -1,10 +1,12 @@
-.sidebar_ChatLists {
+.sidebarChatLists {
     display: flex;
     padding: 18px;
     cursor: pointer;
     border-bottom: 1px solid #fbd7d7;
 }
 
-
+.sidebarChatLists:hover {
+    background-color: #e7dede;
+}
 
 

@@ -4,9 +4,9 @@ import { Avatar } from '@material-ui/core'
 
 function SidebarChats() {
     return (
-        <div className="sidebar_ChatLists">
+        <div className="sidebarChatLists">
           <Avatar />
-          <div className="sidebarChats_info">
+          <div className="sidebarChatLists_info">
               <h2>ChatRoom Name</h2>
               <p>Last Chats</p>
           </div>
