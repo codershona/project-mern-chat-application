@@ -1,0 +1,62 @@
+/* Side bar CSS Styles */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.36;
+}
+
+.sidebar_headers {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px;
+    border-right: 1px solid rgb(236, 218, 218);
+
+}
+
+
+.sidebar_headerRightSide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 10vw;
+}
+
+.sidebar_headerRightSide > .MuiSvgIcon-root {
+   margin-right: 2vw;
+   font-size: 23px !important;
+}
+
+
+.sidebar_Search {
+    display: flex;
+    align-items: center;
+    background-color: #f6b9b9;
+    height: 38px;
+    padding: 11px;
+}
+
+.sidebar_SearchContainers {
+    display: flex;
+    align-items: center;
+    background-color: #eedddd;
+    height: 34px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.sidebar_SearchContainers > .MuiSvgIcon-root {
+    color: rgb(93, 61, 61);
+    padding: 11px;
+}
+
+.sidebar_SearchContainers > input {
+    border: none;
+    outline-width: 0;
+    margin-left: 11px;
+    background-color: #eedddd;
+    color: rgb(10, 7, 7);
+}
+
+
+
+
