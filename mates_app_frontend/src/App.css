@@ -2,7 +2,7 @@
 .app {
     display: grid;
     place-items: center;
-    height: 103vh;
+    height: 111vh;
     background-color: #efe4bc;
 }
 
@@ -10,7 +10,7 @@
     display: flex;
     background-color: #fcf1e9;
     margin-top: -51px;
-    height: 91vh;
+    height: 97vh;
     width: 91vw;
     box-shadow: -1px 4px 20px -6px rgba(22, 21, 21, 0.75);
 }
