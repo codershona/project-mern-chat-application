@@ -8,6 +8,6 @@ const matesappSchema=mongoose.Schema({
     received: Boolean,
 });
 
-
-export default mongoose.model("messageContent", matesappSchema);
+// this is database collection
+export default mongoose.model("messagecontents", matesappSchema);
 

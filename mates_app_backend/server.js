@@ -3,6 +3,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import Messages from "./dbMessages.js"
+import Pusher from "pusher";
 
 // const express = require("express");
 // Then app configuration
@@ -10,10 +11,24 @@ import Messages from "./dbMessages.js"
 const app = express();
 const port = process.env.PORT || 9000;
 
+// const Pusher = require("pusher");
+
+const pusher = new Pusher({
+  appId: "1210090",
+  key: "72ea0bfa631cd8c38fa9",
+  secret: "a38de11a8027b038682b",
+  cluster: "eu",
+  useTLS: true
+});
+
+pusher.trigger("my-channel", "my-event", {
+  message: "hello world"
+});
+
 // next working in middleware
 app.use(express.json());
 
-// DB configuration(This will connect with our mongodb database)
+// DataBase(DB) configuration(This will connect with our mongodb database)
 const connection_url =
   'mongodb+srv://matesappadmin:E6gWsJzQ989hwuME@cluster0.sa5xl.mongodb.net/matesappdb?retryWrites=true&w=majority'
 
@@ -22,7 +37,23 @@ mongoose.connect(connection_url,{
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,
-})
+});
+
+const db = mongoose.connection
+
+db.once("open", () => {
+    console.log("DB has been CONNECTED!!!");
+
+    const msgCollection = db.collection("messagecontents")
+    // console.log(msgCollection);
+    const changeStream = msgCollection.watch();
+
+    changeStream.on("change",(change) => {
+        // console.log(change);
+        console.log("A change has been occured!", change);
+    });
+});
+
 
 // ??????
 
