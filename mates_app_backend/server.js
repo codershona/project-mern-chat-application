@@ -4,6 +4,7 @@ import express from "express";
 import mongoose from "mongoose";
 import Messages from "./dbMessages.js"
 import Pusher from "pusher";
+import cors from "cors";
 
 // const express = require("express");
 // Then app configuration
@@ -28,6 +29,15 @@ pusher.trigger("my-channel", "my-event", {
 // next working in middleware
 app.use(express.json());
 
+app.use(cors());
+
+// As cors package has been installed so we had comment out this code below
+// app.use((req, res, next) => {
+//     res.setHeader("Access-Control-Allow-Origin", "*");
+//     res.setHeader("Access-Control-Allow-Headers", "*");
+//     next();
+// });
+
 // DataBase(DB) configuration(This will connect with our mongodb database)
 const connection_url =
   'mongodb+srv://matesappadmin:E6gWsJzQ989hwuME@cluster0.sa5xl.mongodb.net/matesappdb?retryWrites=true&w=majority'
@@ -51,6 +61,17 @@ db.once("open", () => {
     changeStream.on("change",(change) => {
         // console.log(change);
         console.log("A change has been occured!", change);
+
+        if (change.operationType === "insert") {
+            const messageDetails = change.fullDocument;
+            pusher.trigger("messages", "inserted",
+            {
+                name: messageDetails.name,
+                message: messageDetails.message,
+            });
+      } else {
+        console.log("Errors by triggering Pusher");
+       }
     });
 });
 
