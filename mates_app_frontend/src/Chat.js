@@ -18,7 +18,7 @@ function Chat({ messages }) {
 
       await axios.post('/messages/new', {
             message: input,
-            name: "CoderShona",
+            name: "CoderGirls",
             timestamp: "JUST NOW!",
             received: false,
       });
