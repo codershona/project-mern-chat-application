@@ -31,7 +31,7 @@ function Chat({ messages }) {
 
             <div className="chat_Body">
                {messages.map(message => (
-            <p className={`chat_PeopleMessages ${message.received && "chat_receiver"}`}>
+            <p className={`chat_PeopleMessages ${message.received && "chat_PeopleChatReceiver"}`}>
             <span className="chat_peopleNames">
                 {message.name}
                 </span>
