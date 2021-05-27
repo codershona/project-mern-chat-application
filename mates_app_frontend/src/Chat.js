@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
 import SettingsVoiceIcon from '@material-ui/icons/SettingsVoice';
 
-function Chat() {
+function Chat({ messages }) {
     return (
         <div className="chat">
             <div className="chat_Headers">
@@ -30,153 +30,17 @@ function Chat() {
             </div>
 
             <div className="chat_Body">
-              <p className="chat_PeopleMessages">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-
-                  <p className="chat_PeopleMessages chat_PeopleChatReceiver">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-
-                  <p className="chat_PeopleMessages">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages chat_PeopleChatReceiver">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages chat_PeopleChatReceiver">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages chat_PeopleChatReceiver">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages chat_PeopleChatReceiver">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-                  <p className="chat_PeopleMessages chat_PeopleChatReceiver">
-                 <span className="chat_peopleNames">
-                     James BOND
-                     </span>
-
-
-                  Please check my messages...
-
-                  <span className="chat_Timestamps">
-                     {new Date().toUTCString()}
-                     </span>
-                  </p>
-
+               {messages.map(message => (
+            <p className={`chat_PeopleMessages ${message.received && "chat_receiver"}`}>
+            <span className="chat_peopleNames">
+                {message.name}
+                </span>
+                  {message.message}
+             <span className="chat_Timestamps">
+                {message.timestamp}
+                </span>
+             </p>
+         ))}
             </div>
 
             <div className="chat_Footer">
