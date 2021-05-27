@@ -83,6 +83,7 @@
     border-radius: 35px;
     padding: 11px;
     border: none;
+    outline-width: 0;
 }
 
 .chat_Footer > form > button {
