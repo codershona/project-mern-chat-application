@@ -7,7 +7,7 @@ import Pusher from "pusher";
 import cors from "cors";
 
 // const express = require("express");
-// Then app configuration
+// Then app configuration:
 
 const app = express();
 const port = process.env.PORT || 9000;
