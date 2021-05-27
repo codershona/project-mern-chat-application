@@ -22,9 +22,7 @@ function Chat({ messages }) {
             timestamp: "JUST NOW!",
             received: false,
       });
-
       setInput("");
-
    };
 
     return (
