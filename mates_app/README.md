@@ -10,3 +10,27 @@
 <br />
 <h3 align="center">Mates-App</h3>
 </p>
+
+### Technologies Used:
+
+#### Front development:
+ * React and custom UI
+
+#### Backend development:
+
+ * Node js
+ * MongoDB
+ * Mongoose
+ * PostMan API
+
+### Features 📞
+
+ * MERN MatesApp 📞 My Project Setup
+ * MERN MatesApp 📞 Setting up VSCode and Firebase
+ * MERN MatesApp 📞 Working On Sidebar Component
+ * MERN MatesApp 📞 Setting Up Sidebar Chat
+ * MERN MatesApp 📞  Working On Chat Component
+ * MERN MatesApp 📞 Setting Up The Back-End
+ * MERN MatesApp 📞 Setting Up MongoDB
+ * MERN MatesApp 📞 Connecting Front-End and Back-End
+
