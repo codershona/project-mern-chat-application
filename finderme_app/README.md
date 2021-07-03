@@ -1,6 +1,6 @@
 # FinderMe-App
 
-## (MERN Dating Application)
+## (Building FinderMe MERN Stack Dating Application)
 #### Project Can be found in here :
  <!-- **[Live version]()** -->
 
@@ -27,7 +27,7 @@
  * MERN FinderMe 🔥 My Project Setup
  * MERN FinderMe 🔥 The Header Component
  * MERN FinderMe 🔥 Back to the Header Component
- * MERN FinderMe 🔥 Making the Tinder Cards
+ * MERN FinderMe 🔥 Making the FinderMe Cards
  * MERN FinderMe 🔥 Swipe Functionality
  * MERN FinderMe 🔥 Setting Up The Back-End
  * MERN FinderMe 🔥 Setting Up MongoDB
