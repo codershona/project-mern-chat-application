@@ -1,6 +1,6 @@
 # FinderMe-App
 
-## (Building FinderMe MERN Stack Dating Application)
+## Building FinderMe MERN Stack Dating Application
 #### Project Can be found in here :
  <!-- **[Live version]()** -->
 
