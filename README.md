@@ -4,8 +4,6 @@
 #### Project Can be found in here :
  **[Live version](https://mates-app-f9323.web.app/)**
  <br>
- **[Backend Live version](https://matesapp-backend-app.herokuapp.com/)**
-
 <p align="center">
 	
 <img src="https://user-images.githubusercontent.com/57604500/121790708-525ff580-cbe2-11eb-8a13-d6fd09d680ee.png" width=956>
@@ -35,4 +33,13 @@
  * MERN MatesApp 📞 Setting Up The Back-End
  * MERN MatesApp 📞 Setting Up MongoDB
  * MERN MatesApp 📞 Connecting Front-End and Back-End
+
+
+### Deployment:
+
+#### Backend Deployment :
+ * Using Heroku to deploy it, check this link  **[Heroku Backend Live version](https://matesapp-backend-app.herokuapp.com/)**
+ 
+ #### Frontend Deployment:
+  * Using Firebase to Deploy my frontend and I had connected my back into frontend.
 
