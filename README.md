@@ -49,7 +49,7 @@ This project aims to use MERN Stack on the back end Nodejs and front end React f
 | 3.  | React                     | 17.0.2  | To run frontend server|
 | 4.  | Node                      | 10.13.0 | To run backend server |
 | 5.  | MongoDB Server            | 4.2     | To run mongoDB server |
-| 6.  | Responsive Web Application| Any Version Supported | Default on Android or IOS and its mobile-friendly |
+| 6.  | Desktop Web Application| Any Version Supported | Default on Windows or MacOS and its not mobile-friendly |
 
 ### Deployment:
 
