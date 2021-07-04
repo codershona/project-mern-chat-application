@@ -48,7 +48,7 @@ This project aims to use MERN Stack on the back end Nodejs and front end React f
 | 2.  | Visual Studio Code        | 1.55.2  | My Personal Choice    |
 | 3.  | React                     | 17.0.2  | To run frontend server|
 | 4.  | Node                      | 10.13.0 | To run backend server |
-| 5.  | Windows 10                | 10.15.5 | Default on laptop     |
+| 5.  | MongoDB Server            | 4.2     | To run mongoDB server |
 | 6.  | Responsive Web Application| Any Version Supported | Default on Android or IOS and its mobile-friendly |
 
 ### Deployment:
