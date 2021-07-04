@@ -1,0 +1,79 @@
+/* Css starts here */
+.app {
+    display: grid;
+    place-items: center;
+    height: 111vh;
+    /* width: 91vw; */
+    background-color: #efe4bc;
+}
+
+.app_body {
+    display: flex;
+    background-color: #fcf1e9;
+    margin-top: -51px;
+    height: 97vh;
+    width: 97vw;
+    box-shadow: -1px 4px 20px -6px rgba(22, 21, 21, 0.75);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .app {
+        width: 547px;
+        height: 256vw;
+    }
+    .app_body {
+        width: 102vw
+        /* height: 10vw;
+        */
+ }
+}
+
+
+@media only screen
+    and (device-width : 375px) 
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+        .app {
+            width: 600px;
+            height: 370vw;
+        }
+        .app_body {
+            width: 160vw;
+            /* height: 10vw;;
+            */
+     }
+
+}
+
+@media only screen
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        .app {
+            width: 660px;
+            height: 370vw;
+        }
+        .app_body {
+            width: 160vw;
+     }
+
+}
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .app {
+            width: 660px;
+            height: 370vw;
+        }
+        .app_body {
+            width: 160vw;
+           /* height: 120vw; */
+           position: fixed;
+            top: 150px;
+            /* position: fixed; */
+     }
+}
+

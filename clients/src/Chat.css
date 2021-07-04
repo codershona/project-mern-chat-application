@@ -1,0 +1,111 @@
+/* Chat Component CSS Styling in components */
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+
+}
+
+.chat_Headers {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(207, 178, 178);
+    padding: 21px;
+}
+
+.chat_HeadersInfo {
+    /* flex: 1; */
+    flex: 1;
+    padding-left: 21px;
+}
+
+.chat_HeadersInfo > h3 {
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.chat_HeadersInfo > p {
+    color: rgb(129, 105, 105);
+}
+
+.chat_Body {
+    flex: 1;
+    background-image: url("https://images.pexels.com/photos/2088170/pexels-photo-2088170.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2088170.jpg&fm=jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chat_PeopleMessages {
+    position: relative;
+    font-size: 17px;
+    padding: 11px;
+    width: fit-content;
+    border-radius: 11px;
+    background-color: #f0dada;
+    margin-bottom: 31px;
+}
+
+.chat_Timestamps {
+    margin-left: 11px;
+    font-size: xx-small;
+}
+
+.chat_peopleNames {
+    position: absolute;
+    top: -15px;
+    font-weight: 900;
+    font-size: xx-small;
+}
+
+.chat_PeopleChatReceiver {
+    margin-left: auto;
+    background-color: #8ffaec;
+}
+
+.chat_Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid rgb(230, 204, 204);
+    background-color: rgb(231, 210, 184);
+}
+
+.chat_Footer > form {
+    flex: 1;
+    display: flex;
+}
+
+.chat_Footer > form > input {
+    flex: 1;
+    border-radius: 35px;
+    padding: 11px;
+    border: none;
+    outline-width: 0;
+}
+
+.chat_Footer > form > button {
+    display: none;
+}
+
+/* .chat_Footer > form > button {
+    /* flex: 1; */
+    /* border-radius: 10px;
+    padding: 6px;
+    border: none;
+    background-color: rgb(223, 19, 19);
+    color: white;
+    font-weight: 700 !important;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+.chat_Footer > .MuiSvgIcon-root {
+    padding: 11px;
+    color: rgb(82, 62, 62);
+}
+
+
