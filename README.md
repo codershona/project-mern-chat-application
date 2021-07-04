@@ -21,6 +21,7 @@ This project aims to use MERN Stack on the back end Nodejs and front end React f
 
 #### Front development:
  * React and custom UI
+ * Deploying it into firebase to host front-end
 
 #### Backend development:
 
