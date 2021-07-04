@@ -10,6 +10,8 @@
 <br />
 <h3 align="center">Mates-App</h3>
 </p>
+## Project Description
+This project aims to use MERN Stack on the back end Nodejs and front end React framework. where it is a back-end frameworks to fit a differential equation to the CHAT APPLICATION with users chat data. This would allow us to send our user message and our user also can able to receive our messages. This would be done separately per user as a sender or, as per user as a receiver. The results would be displayed on chat room. It has a contact list.
 
 ### Technologies Used:
 
@@ -40,7 +42,7 @@
 | --- | ------------------------- | ------- | --------------------- |
 | 1.  | Ubuntu 20.04(Linux)       | 20.04   | Default on laptop     |
 | 2.  | Visual Studio Code        | 1.55.2  | My Personal Choice    |
-| 4.  | React                     | 10.13.0 | To run frontend server|
+| 4.  | React                     | 17.0.2  | To run frontend server|
 | 3.  | Node                      | 10.13.0 | To run backend server |
 | 4.  | MongoDB Server            | 4.2     | To run mongoDB server |
 | 5.  | Windows 10                | 10.15.5 | Default on laptop     |
