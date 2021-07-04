@@ -43,7 +43,7 @@ const connection_url =
   'mongodb+srv://matesappadmin:E6gWsJzQ989hwuME@cluster0.sa5xl.mongodb.net/matesappdb?retryWrites=true&w=majority'
 
 
-mongoose.connect(connection_url,{
+mongoose.connect(process.env.MONGODB_URI || connection_url,{
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -106,6 +106,11 @@ app.post("/messages/new", (req, res) => {
         }
     });
 });
+
+// STEP 3 DEPLOYMENT
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'));
+}
 
 // Listen
 app.listen(port,()=>console.log(`Listening on localhost:${port}`));

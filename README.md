@@ -1,8 +1,10 @@
 # Mates-App
 
-## (MERN Chat Application)
+## Project: MERN Chat Application
 #### Project Can be found in here :
- **[Live version]()**
+ **[Live version](https://mates-app-f9323.web.app/)**
+ <br>
+ **[Backend Live version](https://matesapp-backend-app.herokuapp.com/)**
 
 <p align="center">
 	
