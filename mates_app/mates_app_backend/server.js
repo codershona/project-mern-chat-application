@@ -108,7 +108,8 @@ app.post("/messages/new", (req, res) => {
 });
 
 // Listen
-app.listen(port,()=>console.log(`Listening on localhost:${port}`));
+// app.listen(port,()=>console.log(`Listening on localhost:${port}`));
+app.listen(port, () => console.log(`Server started on PORT ${port}`));
 
 
 
