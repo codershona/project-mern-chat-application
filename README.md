@@ -24,10 +24,12 @@ This project aims to use MERN Stack on the back end Nodejs and front end React f
 
 #### Backend development:
 
- * Node js
- * MongoDB
+ * Backend Framework: Node JS
  * Mongoose
  * PostMan API
+ * Database: MongoDB
+ * Server side: Express JS
+ * Connect to MongoDB use Mongooes
 
 ### Features 📞
 
