@@ -15,6 +15,11 @@
   ![node](https://badges.aleen42.com/src/node.svg) ![github](https://badges.aleen42.com/src/github.svg)  ![react](https://badges.aleen42.com/src/react.svg) 
 ![router](https://badges.aleen42.com/src/router.svg)
 
+<a href="https://discord.gg/HjJCwm5">
+        <img src="https://img.shields.io/discord/308323056592486420?logo=discord"
+            alt="chat on Discord"> <img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
+<img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/> </a>
+
 ### Project Description
 
 This project aims to use MERN Stack on the back end Nodejs and front end React framework. where it is a back-end frameworks to fit a differential equation to the CHAT APPLICATION with users chat data. This would allow us to send our user message and our user also can able to receive our messages. This would be done separately per user as a sender or, as per user as a receiver. The results would be displayed on chat room. It has a contact list.
